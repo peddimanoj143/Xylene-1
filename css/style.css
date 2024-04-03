@@ -359,7 +359,7 @@ object-position: 0%;
   transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
+.mobile-nav-toggle.fa-xmark {
   color: #fff;
 }
 
@@ -612,8 +612,29 @@ object-position: 0%;
 }
 
 @media (max-width: 768px) {
+  .appointment-btn{
+    display: block !important;
+  }
   #hero h2 {
     font-size: 28px;
+  }
+  #topbar .d-flex{
+    text-align: right;
+    width: 100%;
+    display: block !important;
+  }
+  .section-title h2 {
+    font-size: 20px !important;}
+  a.navbutton,a.moreproducts{
+    font-size: 14px !important;
+    padding: 12px !important;
+    min-width: 150px !important;
+  }
+  #hero{
+    display: none;
+  }
+  .mt-mob-135{
+    margin-top: 135px;
   }
 }
 
@@ -849,6 +870,9 @@ section {
   opacity: 1;
   background: #ef7f1a;
   color: #fff;
+}
+.appointment-btn, .bxl-twitter, .twitter{
+  display: none !important;
 }
 .navbutton{
   background: #ef7f1a;
